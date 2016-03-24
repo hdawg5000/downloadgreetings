@@ -1,0 +1,27 @@
+.btn_nc, .btn_c {
+	border:1px solid #78A300;
+	border-radius: 4px;
+	color: inherit;
+	position: relative;
+	padding: 4px;
+	font-size: 12px;
+}
+.greeting_name {
+	font-size: 14px;
+	width: 175px;
+	height: 25px;
+	padding-left: 10px;
+}
+.greeting_type {
+	font-size: 14px;
+	width: 175px;
+	height: 25px;
+	font-weight: bold;
+}
+.entry {
+	/*border-bottom: 1px solid #78A300;*/
+	height: 25px;
+}
+a:hover {
+	background-color: #EDEDED;
+}

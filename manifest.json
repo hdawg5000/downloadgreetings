@@ -1,0 +1,13 @@
+{
+  "name": "Download Greetings",
+  "author": {
+    "name": "Hammad Naseem",
+    "email": "hnaseem@zendesk.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "top_bar",
+  "version": "1.0",
+  "frameworkVersion": "1.0"
+}

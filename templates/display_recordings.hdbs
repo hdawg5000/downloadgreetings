@@ -1,0 +1,80 @@
+<table>
+	<p class="greeting_type">Voicemail</p>
+	{{#each recordings}}
+		{{#if this.v}}
+			<tr class="entry">
+			{{#if this.chrome}}
+				<td class="greeting_name">&bull; {{this.name}}</td>
+				<td><a class="btn_c" href="{{this.url}}" download="{{this.name}}.mp3">Download</a></td>
+			{{else}}
+				<td class="greeting_name">{{this.name}}</td>
+				<td><a class="btn_nc" href="{{this.url}}" target="_blank">Download</a></td>
+			{{/if}}
+			</tr>
+		{{/if}}
+	{{/each}}
+</table>
+<table>
+	<p class="greeting_type">Available Agents</p>
+	{{#each recordings}}
+		{{#if this.a}}
+			<tr class="entry">
+			{{#if this.chrome}}
+				<td class="greeting_name">&bull; {{this.name}}</td>
+				<td><a class="btn_c" href="{{this.url}}" download="{{this.name}}.mp3">Download</a></td>
+			{{else}}
+				<td class="greeting_name">{{this.name}}</td>
+				<td><a class="btn_nc" href="{{this.url}}" target="_blank">Download</a></td>
+			{{/if}}
+			</tr>
+		{{/if}}
+	{{/each}}
+</table>
+<table>
+	<p class="greeting_type">Wait</p>
+	{{#each recordings}}
+		{{#if this.w}}
+			<tr class="entry">
+			{{#if this.chrome}}
+				<td class="greeting_name">&bull; {{this.name}}</td>
+				<td><a class="btn_c" href="{{this.url}}" download="{{this.name}}.mp3">Download</a></td>
+			{{else}}
+				<td class="greeting_name">{{this.name}}</td>
+				<td><a class="btn_nc" href="{{this.url}}" target="_blank">Download</a></td>
+			{{/if}}
+			</tr>
+		{{/if}}
+	{{/each}}
+</table>
+<table>
+	<p class="greeting_type">Hold</p>
+	{{#each recordings}}
+		{{#if this.h}}
+			<tr class="entry">
+			{{#if this.chrome}}
+				<td class="greeting_name">&bull; {{this.name}}</td>
+				<td><a class="btn_c" href="{{this.url}}" download="{{this.name}}.mp3">Download</a></td>
+			{{else}}
+				<td class="greeting_name">{{this.name}}</td>
+				<td><a class="btn_nc" href="{{this.url}}" target="_blank">Download</a></td>
+			{{/if}}
+			</tr>
+		{{/if}}
+	{{/each}}
+</table>
+<table>
+	<p class="greeting_type">IVR</p>
+	{{#each recordings}}
+		{{#if this.i}}
+			<tr class="entry">
+			{{#if this.chrome}}
+				<td class="greeting_name">&bull; {{this.name}}</td>
+				<td><a class="btn_c" href="{{this.url}}" download="{{this.name}}.mp3">Download</a></td>
+			{{else}}
+				<td class="greeting_name">{{this.name}}</td>
+				<td><a class="btn_nc" href="{{this.url}}" target="_blank">Download</a></td>
+			{{/if}}
+			</tr>
+		{{/if}}
+	{{/each}}
+</table>
